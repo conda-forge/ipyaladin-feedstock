@@ -1,5 +1,5 @@
 {% set name = "ipyaladin" %}
-{% set version = "0.2.1" %}
+{% set version = "0.2.4" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/ipyaladin-{{ version }}.tar.gz
-  sha256: 8503ce32a2570e36e351c5c65d63ac5b6a681963cb3e560cadc9efa1cd301e60
+  sha256: 0b0ab3577b8948bf116ef11e992f6f552991853c903242e59cd5d01be94bad82
 
 build:
   number: 0
