@@ -46,5 +46,6 @@ about:
 
 extra:
   recipe-maintainers:
+    - ManonMarchand
     - bmatthieu3
     - tboch
