@@ -46,31 +46,73 @@ conda config --add channels conda-forge
 conda config --set channel_priority strict
 ```
 
-Once the `conda-forge` channel has been enabled, `ipyaladin` can be installed with `conda`:
+How to use
+----------
+
+<details>
+<summary>With conda</summary>
 
 ```
 conda install ipyaladin
 ```
 
-or with `mamba`:
+</details>
+
+<details>
+<summary>With mamba</summary>
 
 ```
 mamba install ipyaladin
 ```
 
-It is possible to list all of the versions of `ipyaladin` available on your platform with `conda`:
+</details>
+
+<details>
+<summary>With pixi</summary>
+
+```
+# for adding to your local project
+pixi add ipyaladin
+# for installing globally
+pixi global install ipyaladin
+```
+
+</details>
+
+Search package versions
+-----------------------
+
+It is possible to list all of the versions of `ipyaladin` available on your platform:
+
+<details>
+<summary>With conda</summary>
 
 ```
 conda search ipyaladin --channel conda-forge
 ```
 
-or with `mamba`:
+</details>
+
+<details>
+<summary>With mamba</summary>
 
 ```
 mamba search ipyaladin --channel conda-forge
 ```
 
-Alternatively, `mamba repoquery` may provide more information:
+</details>
+
+<details>
+<summary>With pixi</summary>
+
+```
+pixi search ipyaladin --channel conda-forge
+```
+
+</details>
+
+<details>
+<summary>With mamba repoquery, which may provide more information</summary>
 
 ```
 # Search all versions available on your platform:
@@ -82,6 +124,8 @@ mamba repoquery whoneeds ipyaladin --channel conda-forge
 # List dependencies of `ipyaladin`:
 mamba repoquery depends ipyaladin --channel conda-forge
 ```
+
+</details>
 
 
 About conda-forge
@@ -150,6 +194,7 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@ManonMarchand](https://github.com/ManonMarchand/)
 * [@bmatthieu3](https://github.com/bmatthieu3/)
 * [@tboch](https://github.com/tboch/)
 
