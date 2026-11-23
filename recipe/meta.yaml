@@ -1,5 +1,5 @@
 {% set name = "ipyaladin" %}
-{% set version = "0.8.2" %}
+{% set version = "0.8.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/ipyaladin-{{ version }}.tar.gz
-  sha256: ed85e7c08e1fdabf536263d0e7fa0f5c5c7a49c10f6f8f7e1795668d18af9b3b
+  sha256: 4be17088e6bee05c4d824847b09253693a232486c58ce6859ba176e3d667cfeb
 
 build:
   number: 0
